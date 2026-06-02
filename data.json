@@ -1,0 +1,222 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/4k69-downloader",
+  "serply_link": "https://serp.ly/4k69-downloader",
+  "app_name": "4k69 Video Downloader",
+  "short_description": "Download & Save 4k69 Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "4k69 Downloader is a site-specific browser extension that works directly on supported 4K69 watch pages. Instead of copying URLs into a generic downloader, this tool stays inside the tab you are already viewing and scans the page for exposed MP4 or HLS media sources. When the player reveals usable files, you can review available quality options and save them locally through your browser.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/4k69-downloader-fullscreen-01-c52293b35d.webp",
+    "https://apps.serp.co/media/optimized-products/4k69-downloader-fullscreen-02-292cd9f94a.webp",
+    "https://apps.serp.co/media/optimized-products/4k69-downloader-fullscreen-03-85f470cb17.webp",
+    "https://apps.serp.co/media/optimized-products/4k69-downloader-fullscreen-04-517072503d.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "How do I download a 4K69 video?",
+      "answer": "Go to a supported 4k69.com watch page, let the Fluid Player area load, then use the player button, extension icon, or context menu to review exposed media options."
+    },
+    {
+      "question": "What formats can it detect?",
+      "answer": "The extension can normalize direct MP4 and HLS/M3U8-style candidates when the 4K69 page, player metadata, scripts, video tags, embedded references, or observed browser requests expose them."
+    },
+    {
+      "question": "Does 4k69 Downloader guarantee 4K downloads?",
+      "answer": "No. The 4K69 brand may suggest high resolution, but the extension can only present the files or playlists the source provides."
+    },
+    {
+      "question": "Can I choose video quality?",
+      "answer": "Sometimes. If more than one source variant is detected, the extension attempts to label and sort options by available resolution clues. Some pages may expose only one usable stream."
+    },
+    {
+      "question": "Where are files saved?",
+      "answer": "The download configuration uses a 4K69 folder in your browser download directory."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "People who need to save videos for offline viewing when they have permission to do so"
+    },
+    {
+      "name": "",
+      "description": "Archiving content you own or have permission to keep locally"
+    },
+    {
+      "name": "",
+      "description": "Check your browser download settings and ensure the extension has the necessary permissions."
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Works on supported 4k69.com watch pages with the Fluid Player layout",
+    "Detects exposed MP4 and HLS/M3U8 sources from the page and player",
+    "Shows quality labels only when the original source provides resolution clues",
+    "Includes an in-page download button, popup controls, and a right-click menu",
+    "Provides 3 free trial downloads with email OTP activation",
+    "4K69-specific extension identity with product page and download folder",
+    "Host coverage for 4k69.com, www.4k69.com, and 4K69 subdomains",
+    "Player button configured for the Fluid Player wrapper area",
+    "Detection of exposed MP4 and HLS/M3U8 sources from page tags, metadata, scripts, video elements, performance entries, and observed network requests",
+    "Filters that skip common ad banners, thumbnails, previews, sprites, and timeline noise",
+    "Right-click context menu option to download the current 4K69 video",
+    "In-page download manager with progress updates",
+    "Offscreen processing for HLS streams and referer-sensitive MP4 sources",
+    "Email OTP activation through SERP authentication"
+  ],
+  "content": {
+    "why": [
+      "Watching videos on 4K69 means relying on the player to load and stream content, but the final media source is not always obvious from the page alone. You might see a thumbnail, a title, and a player area, but the actual downloadable file can remain hidden until the player initializes or playback starts. Manually inspecting page scripts, network requests, or browser developer tools for every video you want to save is tedious and time-consuming.",
+      "4k69 Downloader handles that detection for you. It is built around the 4K69 watch-page layout and targets the Fluid Player wrapper where media sources are typically exposed. After the player loads, the extension scans the page for direct MP4 links, HLS playlists, and any other media candidates the source provides. You can then review what is available, see quality labels when the source includes them, and save the file through your browser without leaving the page."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open 4K69 and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Install the 4k69 Downloader extension from the latest GitHub release.",
+      "Open your browser and navigate to a supported 4K69 watch page, for example a URL that includes /watch/ in the path.",
+      "Allow the page to fully load and let the Fluid Player area initialize.",
+      "Start playback if the final media request has not appeared yet, as some pages only expose sources after the player begins.",
+      "Look for the extension download button near the player, or click the extension icon in your toolbar to open the popup.",
+      "Review the detected media candidates that appear, which may include direct MP4 links or HLS playlists.",
+      "If multiple quality options are listed, select the one that matches your preference.",
+      "Click the download button and wait for the file to save to your designated download folder."
+    ],
+    "supported_formats": [
+      "Input: Direct MP4 URLs and HLS/M3U8 playlists exposed by the 4K69 watch page, player metadata, scripts, video tags, performance entries, embedded references, or observed browser requests",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "4K69 viewers who want download controls attached to the watch page they are already using",
+      "Users who prefer extension-side detection over manually inspecting page scripts or network requests",
+      "People who need to save videos for offline viewing when they have permission to do so",
+      "Anyone who wants a focused single-site tool instead of a broad downloader that guesses across unrelated websites"
+    ],
+    "use_cases": [
+      "Saving a 4K69 watch-page video to watch later without an internet connection",
+      "Archiving content you own or have permission to keep locally",
+      "Comparing detected quality options when the source exposes multiple variants",
+      "Using the in-page player button as a quick entry point instead of opening the extension popup",
+      "Downloading through the right-click context menu when you prefer that workflow"
+    ],
+    "troubleshooting": [
+      "No media sources are detected on the page. Refresh the page, make sure the player has fully loaded, and try starting playback before opening the extension UI.",
+      "The player button does not appear. Confirm you are on a supported 4K69 watch page with the Fluid Player wrapper, and that the extension is activated after installation.",
+      "Only one quality option is shown. The extension can only present what the source page exposes. Some videos may have only a single stream available.",
+      "Downloads are not starting. Check your browser download settings and ensure the extension has the necessary permissions.",
+      "The extension says I have used my trial downloads. You have 3 free downloads per device. After that, a paid license is required for unlimited use."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported 4K69 page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Some 4K69 watch pages may need playback to begin before the final media source is exposed",
+      "The extension shows quality options only when the original source includes resolution information"
+    ],
+    "about": [
+      "4K69 is a video platform that hosts adult content across various categories and resolutions. This extension is designed for users who want a streamlined way to save videos from supported watch pages when the source provides accessible media files."
+    ]
+  },
+  "serpx_link": "https://serpx.link/4k69-downloader",
+  "github_topics": [
+    "4k69-download",
+    "4k69-downloader",
+    "4k69-video-downloader",
+    "4k69-video-downloader-online",
+    "4k69-video-downloader-mac",
+    "4k69-video-downloader-window",
+    "4k69-video-downloader-free",
+    "4k69-video-downloader-extension",
+    "4k69-video-downloader-app",
+    "4k69-video-downloader-chrome",
+    "4k69-video-downloader-from-url",
+    "how-to-download-4k69-videos",
+    "how-to-download-4k69-videos-mac",
+    "how-to-download-4k69-videos-windows",
+    "how-to-download-4k69-videos-online",
+    "how-to-download-4k69-videos-free",
+    "how-to-download-from-4k69",
+    "how-to-download-videos-from-4k69",
+    "download-4k69-videos",
+    "4k69-video-tutorial",
+    "save-4k69-videos",
+    "4k69-video-content-saver",
+    "how-to-download-4k69-videos-for-free"
+  ],
+  "hashtags": [
+    "#4k69Download",
+    "#4k69Downloader",
+    "#4k69VideoDownloader",
+    "#4k69VideoDownloaderOnline",
+    "#4k69VideoDownloaderMac",
+    "#4k69VideoDownloaderWindow",
+    "#4k69VideoDownloaderFree",
+    "#4k69VideoDownloaderExtension",
+    "#4k69VideoDownloaderApp",
+    "#4k69VideoDownloaderChrome",
+    "#4k69VideoDownloaderFromURL",
+    "#HowToDownload4k69Videos",
+    "#HowToDownload4k69VideosMac",
+    "#HowToDownload4k69VideosWindows",
+    "#HowToDownload4k69VideosOnline",
+    "#HowToDownload4k69VideosFree",
+    "#HowToDownloadFrom4k69",
+    "#HowToDownloadVideosFrom4k69",
+    "#Download4k69Videos",
+    "#4k69VideoTutorial",
+    "#Save4k69Videos",
+    "#4k69VideoContentSaver",
+    "#HowToDownload4k69VideosForFree"
+  ],
+  "youtube_tags": [
+    "4k69 Download",
+    "4k69 Downloader",
+    "4k69 Video Downloader",
+    "4k69 Video Downloader Online",
+    "4k69 Video Downloader Mac",
+    "4k69 Video Downloader Window",
+    "4k69 Video Downloader Free",
+    "4k69 Video Downloader Extension",
+    "4k69 Video Downloader App",
+    "4k69 Video Downloader Chrome",
+    "4k69 Video Downloader From URL",
+    "How To Download 4k69 Videos",
+    "How To Download 4k69 Videos Mac",
+    "How To Download 4k69 Videos Windows",
+    "How To Download 4k69 Videos Online",
+    "How To Download 4k69 Videos Free",
+    "How To Download From 4k69",
+    "How To Download Videos From 4k69",
+    "Download 4k69 Videos",
+    "4k69 Video Tutorial",
+    "Save 4k69 Videos",
+    "4k69 Video Content Saver",
+    "How To Download 4k69 Videos For Free"
+  ]
+}
